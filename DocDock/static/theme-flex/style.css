@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @font-face {
-  font-family: 'Novacento Sans Wide';
+  font-family: 'Helvetica';
   src: url("../fonts/Novecentosanswide-UltraLight-webfont.eot");
   src: url("../fonts/Novecentosanswide-UltraLight-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Novecentosanswide-UltraLight-webfont.woff2") format("woff2"), url("../fonts/Novecentosanswide-UltraLight-webfont.woff") format("woff"), url("../fonts/Novecentosanswide-UltraLight-webfont.ttf") format("truetype"), url("../fonts/Novecentosanswide-UltraLight-webfont.svg#novecento_sans_wideultralight") format("svg");
   font-style: normal;
@@ -26,7 +26,11 @@
   font-family: 'RobotoMono';
   font-weight: 500;
   src: local("Roboto Mono Medium"), local("RobotoMono-Medium"), url("../fonts/RobotoMono-Medium.ttf") format("truetype"); }
-header {
+
+  @import url("https://fonts.googleapis.com/css?family=Sarabun:300,400|Poppins:300,400,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Kanit:300,400|Poppins:300,400,800&display=swap");
+
+  header {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -114,7 +118,7 @@ article > aside {
     list-style-type: none; }
     article > aside .menu > label {
       display: block;
-      font-family: 'Novacento Sans Wide', 'Helvetica', 'Tahoma', 'Geneva', 'Arial', sans-serif;
+      font-family:  'Kanit', 'Tahoma', 'Geneva', 'Arial', sans-serif;
       font-weight: 100;
       font-size: 130%;
       margin-left: 1rem; }
@@ -187,7 +191,7 @@ body {
   height: 100%; }
 
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Sarabun';
   font-size: 14px; }
 
 body {
@@ -307,7 +311,7 @@ article section.page {
   padding: 2rem 4rem; }
   article section.page h1:first-of-type {
     margin: 3rem 0rem;
-    font-family: "Novacento Sans Wide", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-family:  "Kanit", "Tahoma", "Geneva", "Arial", sans-serif;
     text-align: center;
     text-transform: uppercase;
     color: #060606;
