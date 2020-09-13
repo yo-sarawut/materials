@@ -27,7 +27,7 @@ enableMissingTranslationPlaceholders = false
 [params]
 ordersectionsby = "weight" # ordersectionsby = "title"
 color_main = "#737373"
-color_second = "#b30000"
+#color_second = "#b30000"
 disableSearch = false # default is false
 disableNavChevron = false # set true to hide next/prev chevron, default is false
 menushortcutsnewtab = false # set true to open shortcuts links to a new tab/window
@@ -52,8 +52,10 @@ lineNoStart = 1
 lineNos = false
 lineNumbersInTable = true
 noClasses = true
-style = "Github"
+style = "monokai"
 tabWidth = 2
+
+
 
 #
 # top menu shotcuts

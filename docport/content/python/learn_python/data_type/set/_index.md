@@ -4,9 +4,7 @@ weight = 5
 +++
 
 
-# Python Sets
-
-#### In this tutorial, you'll learn everything about Python sets; how they are created, adding or removing elements from them, and all operations performed on sets in Python.
+In this tutorial, you'll learn everything about Python sets; how they are created, adding or removing elements from them, and all operations performed on sets in Python.
 
 A set is an unordered collection of items. Every set element is unique (no duplicates) and must be immutable (cannot be changed).
 
@@ -233,8 +231,8 @@ Sets can be used to carry out mathematical set operations like union, intersecti
 Let us consider the following two sets for the following operations.
 
 ```py
->>> A = {1, 2, 3, 4, 5}
->>> B = {4, 5, 6, 7, 8}
+ A = {1, 2, 3, 4, 5}
+ B = {4, 5, 6, 7, 8}
 ```
 
 ### Set Union
@@ -266,11 +264,11 @@ Try the following examples on Python shell.
 
 ```py
 # use union function
->>> A.union(B)
+ A.union(B)
 {1, 2, 3, 4, 5, 6, 7, 8}
 
 # use union function on B
->>> B.union(A)
+ B.union(A)
 {1, 2, 3, 4, 5, 6, 7, 8}
 ```
 
@@ -305,11 +303,11 @@ Try the following examples on Python shell.
 
 ```py
 # use intersection function on A
->>> A.intersection(B)
+ A.intersection(B)
 {4, 5}
 
 # use intersection function on B
->>> B.intersection(A)
+ B.intersection(A)
 {4, 5}
 ```
 
@@ -344,15 +342,15 @@ Try the following examples on Python shell.
 
 ```py
 # use difference function on A
->>> A.difference(B)
+ A.difference(B)
 {1, 2, 3}
 
 # use - operator on B
->>> B - A
+ B - A
 {8, 6, 7}
 
 # use difference function on B
->>> B.difference(A)
+ B.difference(A)
 {8, 6, 7}
 ```
 
@@ -387,11 +385,11 @@ Try the following examples on Python shell.
 
 ```py
 # use symmetric_difference function on A
->>> A.symmetric_difference(B)
+ A.symmetric_difference(B)
 {1, 2, 3, 6, 7, 8}
 
 # use symmetric_difference function on B
->>> B.symmetric_difference(A)
+ B.symmetric_difference(A)
 {1, 2, 3, 6, 7, 8}
 ```
 
@@ -455,7 +453,7 @@ False
 We can iterate through each item in a set using a  `for`  loop.
 
 ```py
->>> for letter in set("apple"):
+ for letter in set("apple"):
 ...     print(letter)
 ...    
 a
@@ -503,13 +501,13 @@ B = frozenset([3, 4, 5, 6])
 Try these examples on Python shell.
 
 ```py
->>> A.isdisjoint(B)
+ A.isdisjoint(B)
 False
->>> A.difference(B)
+ A.difference(B)
 frozenset({1, 2})
->>> A | B
+ A | B
 frozenset({1, 2, 3, 4, 5, 6})
->>> A.add(3)
+ A.add(3)
 ...
 AttributeError: 'frozenset' object has no attribute 'add'
 ```

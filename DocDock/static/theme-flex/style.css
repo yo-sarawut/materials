@@ -191,8 +191,8 @@ body {
   height: 100%; }
 
 html {
-  font-family: 'Sarabun';
-  font-size: 14px; }
+  font-family: 'Kanit';
+  font-size: 1em; }
 
 body {
   background-color: #fff;
@@ -375,7 +375,7 @@ article section.page {
   article section.page table code {
     padding: 0 0.25rem; }
   article section.page pre {
-    background-color: #eee;
+    background-color: grey;
     border-radius: .2rem;
     color: #444;
     overflow: auto;

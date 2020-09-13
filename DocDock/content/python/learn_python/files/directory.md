@@ -1,6 +1,6 @@
 +++
-title = "Python: String"
-weight = 4
+title = "Python: Directory"
+weight = 2
 +++
 
 In this tutorial you will learn to create, format, modify and delete strings in Python. Also, you will be introduced to various string operations and functions.
@@ -89,12 +89,12 @@ If we try to access an index out of the range or use numbers other than an integ
 
 ```py
 # index must be in range
- my_string[15]  
+my_string[15]  
 ...
 IndexError: string index out of range
 
 # index must be an integer
- my_string[1.5] 
+my_string[1.5] 
 ...
 TypeError: string indices must be integers
 ```
@@ -113,23 +113,23 @@ String Slicing in Python
 
 Strings are immutable. This means that elements of a string cannot be changed once they have been assigned. We can simply reassign different strings to the same name.
 ```py
- my_string = 'programiz'
- my_string[5] = 'a'
+my_string = 'programiz'
+my_string[5] = 'a'
 ...
 TypeError: 'str' object does not support item assignment
- my_string = 'Python'
- my_string
+my_string = 'Python'
+my_string
 'Python'
 ```
 
 We cannot delete or remove characters from a string. But deleting the string entirely is possible using the  `del`  keyword.
 
 ```py
- del my_string[1]
+del my_string[1]
 ...
 TypeError: 'str' object doesn't support item deletion
- del my_string
- my_string
+del my_string
+my_string
 ...
 NameError: name 'my_string' is not defined
 ```
@@ -163,23 +163,25 @@ print('str1 * 3 =', str1 * 3)
 ```
 
 When we run the above program, we get the following output:
-```
+
+```py
 str1 + str2 =  HelloWorld!
 str1 * 3 = HelloHelloHello
 ```
+
 Writing two string literals together also concatenates them like  **+**  operator.
 
 If we want to concatenate strings in different lines, we can use parentheses.
 
 ```py
- # two string literals together
- 'Hello ''World!'
+# two string literals together
+'Hello ''World!'
 'Hello World!'
 
- # using parentheses
- s = ('Hello '
+# using parentheses
+s = ('Hello '
 ...      'World')
- s
+s
 'Hello World'
 ```
 
@@ -199,6 +201,7 @@ print(count,'letters found')
 ```
 
 When we run the above program, we get the following output:
+
 ```
 3 letters found
 ```
@@ -209,9 +212,9 @@ When we run the above program, we get the following output:
 We can test if a substring exists within a string or not, using the keyword  `in`.
 
 ```py
- 'a' in 'program'
+'a' in 'program'
 True
- 'at' not in 'battle'
+'at' not in 'battle'
 False
 ```
 
@@ -237,6 +240,7 @@ print('len(str) = ', len(str))
 ```
 
 When we run the above program, we get the following output:
+
 ```
 list(enumerate(str) =  [(0, 'c'), (1, 'o'), (2, 'l'), (3, 'd')]
 len(str) =  4
@@ -250,10 +254,10 @@ len(str) =  4
 If we want to print a text like  He said, "What's there?", we can neither use single quotes nor double quotes. This will result in a  `SyntaxError`  as the text itself contains both single and double quotes.
 
 ```py
- print("He said, "What's there?"")
+print("He said, "What's there?"")
 ...
 SyntaxError: invalid syntax
- print('He said, "What's there?"')
+print('He said, "What's there?"')
 ...
 SyntaxError: invalid syntax
 ```
@@ -300,14 +304,14 @@ Here is a list of all the escape sequences supported by Python.
 Here are some examples
 
 ```py
- print("C:\\Python32\\Lib")
+print("C:\\Python32\\Lib")
 # C:\Python32\Lib
 
- print("This is printed\nin two lines")
+print("This is printed\nin two lines")
 #This is printed
 # in two lines
 
- print("This is \x48\x45\x58 representation")
+print("This is \x48\x45\x58 representation")
 # This is HEX representation
 ```
 
@@ -318,10 +322,10 @@ Here are some examples
 Sometimes we may wish to ignore the escape sequences inside a string. To do this we can place  `r`  or  `R`  in front of the string. This will imply that it is a raw string and any escape sequence inside it will be ignored.
 
 ```py
- print("This is \x61 \ngood example")
+print("This is \x61 \ngood example")
 This is a
 good example
- print(r"This is \x61 \ngood example")
+print(r"This is \x61 \ngood example")
 This is \x61 \ngood example
 ```
 
@@ -368,20 +372,20 @@ The  `format()`  method can have optional format specifications. They are separa
 We can also format integers as binary, hexadecimal, etc. and floats can be rounded or displayed in the exponent format. There are tons of formatting you can use. Visit here for all the  [string formatting available with the](https://www.programiz.com/python-programming/methods/string/format)  `[format()](https://www.programiz.com/python-programming/methods/string/format)`  method.
 
 ```py
- # formatting integers
- "Binary representation of {0} is {0:b}".format(12)
+# formatting integers
+"Binary representation of {0} is {0:b}".format(12)
 'Binary representation of 12 is 1100'
 
- # formatting floats
- "Exponent representation: {0:e}".format(1566.345)
+# formatting floats
+"Exponent representation: {0:e}".format(1566.345)
 'Exponent representation: 1.566345e+03'
 
- # round off
- "One third is: {0:.3f}".format(1/3)
+# round off
+"One third is: {0:.3f}".format(1/3)
 'One third is: 0.333'
 
- # string alignment
- "|{:<10}|{:^10}|{:>10}|".format('butter','bread','ham')
+# string alignment
+"|{:<10}|{:^10}|{:>10}|".format('butter','bread','ham')
 '|butter    |  bread   |       ham|'
 ```
 
@@ -392,10 +396,10 @@ We can also format integers as binary, hexadecimal, etc. and floats can be round
 We can even format strings like the old  `sprintf()`  style used in C programming language. We use the  `%`  operator to accomplish this.
 
 ```py
- x = 12.3456789
- print('The value of x is %3.2f' %x)
+x = 12.3456789
+print('The value of x is %3.2f' %x)
 The value of x is 12.35
- print('The value of x is %3.4f' %x)
+print('The value of x is %3.4f' %x)
 The value of x is 12.3457
 ```
 
@@ -406,17 +410,17 @@ The value of x is 12.3457
 There are numerous methods available with the string object. The  `format()`  method that we mentioned above is one of them. Some of the commonly used methods are  `lower()`,  `upper()`,  `join()`,  `split()`,  `find()`,  `replace()`  etc. Here is a complete list of all the  [built-in methods to work with strings in Python](https://www.programiz.com/python-programming/methods/string).
 
 ```py
- "PrOgRaMiZ".lower()
+"PrOgRaMiZ".lower()
 'programiz'
- "PrOgRaMiZ".upper()
+"PrOgRaMiZ".upper()
 'PROGRAMIZ'
- "This will split all words into a list".split()
+"This will split all words into a list".split()
 ['This', 'will', 'split', 'all', 'words', 'into', 'a', 'list']
- ' '.join(['This', 'will', 'join', 'all', 'words', 'into', 'a', 'string'])
+' '.join(['This', 'will', 'join', 'all', 'words', 'into', 'a', 'string'])
 'This will join all words into a string'
- 'Happy New Year'.find('ew')
+'Happy New Year'.find('ew')
 7
- 'Happy New Year'.replace('Happy','Brilliant')
+'Happy New Year'.replace('Happy','Brilliant')
 'Brilliant New Year'
 ```
 

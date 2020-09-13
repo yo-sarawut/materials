@@ -4,9 +4,7 @@ weight = 3
 +++
 
 
-# Python List
-
-#### In this article, we'll learn everything about Python lists, how they are created, slicing of a list, adding or removing elements from them and so on.
+In this article, we'll learn everything about Python lists, how they are created, slicing of a list, adding or removing elements from them and so on.
 
 Python offers a range of compound data types often referred to as sequences. List is one of the most frequently used and very versatile data types used in Python.
 

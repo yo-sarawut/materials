@@ -5,7 +5,7 @@
 	use source map feature of your browser.
  */
 @font-face {
-  font-family: 'Novacento Sans Wide';
+  font-family: '1Novacento Sans Wide';
   src: url("../fonts/Novecentosanswide-UltraLight-webfont.eot");
   src: url("../fonts/Novecentosanswide-UltraLight-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Novecentosanswide-UltraLight-webfont.woff2") format("woff2"), url("../fonts/Novecentosanswide-UltraLight-webfont.woff") format("woff"), url("../fonts/Novecentosanswide-UltraLight-webfont.ttf") format("truetype"), url("../fonts/Novecentosanswide-UltraLight-webfont.svg#novecento_sans_wideultralight") format("svg");
   font-style: normal;
@@ -122,7 +122,7 @@
   color: rgba(116, 116, 116, 0.9925); }
 
 body {
-  font-size: 16px !important;
+  font-size: 18px !important;
   color: #323232 !important; }
 
 #body a.highlight, #body a.highlight:hover, #body a.highlight:focus {
