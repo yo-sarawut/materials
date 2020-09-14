@@ -51,9 +51,11 @@ Here, we use the  `class`  keyword to define an empty class  Parrot. From class,
 An object (instance) is an instantiation of a class. When class is defined, only the description for the object is defined. Therefore, no memory or storage is allocated.
 
 The example for object of parrot class can be:
-```
+
+```py
 obj = Parrot()
 ```
+
 Here,  obj  is an object of class  `Parrot`.
 
 Suppose we have details of parrots. Now, we are going to show how to build the class and objects of parrots.

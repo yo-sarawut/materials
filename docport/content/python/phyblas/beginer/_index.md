@@ -39,54 +39,6 @@ weight = 1
 ※ math  
 
   
-ระดับเหนือกว่าพื้นฐานขึ้นมาหน่อย
-
-[บทที่ ๑๗: การอ่านข้อมูลจากไฟล์](https://phyblas.hinaboshi.com/tsuchinoko17)  
-※ open close read readlines readline seek tell with  
-[บทที่ ๑๘: การเขียนข้อมูลลงไฟล์](https://phyblas.hinaboshi.com/tsuchinoko18)  
-※ write writelines shutil  
-[บทที่ ๑๙: การสร้างฟังก์ชัน](https://phyblas.hinaboshi.com/tsuchinoko19)  
-※ def return global  
-[บทที่ ๒๐: ฟังก์ชันเวียนเกิด](https://phyblas.hinaboshi.com/tsuchinoko20)  
-※  
-[บทที่ ๒๑: คำสั่งพิเศษบางตัวที่เกี่ยวข้องกับฟังก์ชัน](https://phyblas.hinaboshi.com/tsuchinoko21)  
-※ lambda map filter any all  
-[บทที่ ๒๒: การสร้างคลาส](https://phyblas.hinaboshi.com/tsuchinoko22)  
-※ class __init__  
-[บทที่ ๒๓: การรับทอด](https://phyblas.hinaboshi.com/tsuchinoko23)  
-※ super  
-[บทที่ ๒๔: เมธอดและแอตทริบิวต์พิเศษของคลาส](https://phyblas.hinaboshi.com/tsuchinoko24)  
-※ __len__ __str__ __bool__ isinstance issubclass setattr getattr hasattr delattr  
-[บทที่ ๒๕: การจัดการกับข้อยกเว้น](https://phyblas.hinaboshi.com/tsuchinoko25)  
-※ raise try except  
-
-  
-ระดับกลาง
-
-[บทที่ ๒๖: อิเทอเรเตอร์และเจเนอเรเตอร์](https://phyblas.hinaboshi.com/tsuchinoko26)  
-※ yield next  
-[บทที่ ๒๗: การสร้างคลาสของอิเทอเรเตอร์](https://phyblas.hinaboshi.com/tsuchinoko27)  
-※ iter __iter__ __next__ __reversed__  
-[บทที่ ๒๘: ฟังก์ชันบางส่วนที่เกี่ยวข้องกับอิเทอเรเตอร์](https://phyblas.hinaboshi.com/tsuchinoko28)  
-※ zip enumerate itertools  
-[บทที่ ๒๙: การสร้างฟังก์ชันที่มีความซับซ้อน](https://phyblas.hinaboshi.com/tsuchinoko29)  
-※  
-[บทที่ ๓๐: รู้จักกับเดคอเรเตอร์](https://phyblas.hinaboshi.com/tsuchinoko30)  
-※ @  
-[บทที่ ๓๑: ทำความเข้าใจเดคอเรเตอร์มากยิ่งขึ้น](https://phyblas.hinaboshi.com/tsuchinoko31)  
-※ functools.wraps functools.update_wrapper  
-[บทที่ ๓๒: การตกแต่งคลาสด้วยเดคอเรเตอร์](https://phyblas.hinaboshi.com/tsuchinoko32)  
-※  
-[บทที่ ๓๓: เมธอดของคลาสและเมธอดสถิต](https://phyblas.hinaboshi.com/tsuchinoko33)  
-※ classmethod staticmethod  
-[บทที่ ๓๔: การสร้างมอดูล](https://phyblas.hinaboshi.com/tsuchinoko34)  
-※ imp.reload exec eval  
-[บทที่ ๓๕: การทำมอดูลเป็นแพ็กเกจ](https://phyblas.hinaboshi.com/tsuchinoko35)  
-※  
-[บทที่ ๓๖: บทส่งท้าย](https://phyblas.hinaboshi.com/tsuchinoko36)  
-※  
-
-  
 
 ### เนื้อหาเพิ่มเติม
 
