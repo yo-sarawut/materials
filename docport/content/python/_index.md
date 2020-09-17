@@ -13,5 +13,6 @@ weight = 1
 - https://www.programiz.com/
 - https://pandas.pydata.org/
 - https://www.w3schools.com/python/default.asp
+- https://codeloop.org
 
 
