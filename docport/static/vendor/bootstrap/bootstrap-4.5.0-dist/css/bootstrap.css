@@ -178,7 +178,7 @@ code,
 kbd,
 samp {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 pre {
@@ -499,7 +499,7 @@ mark,
 }
 
 code {
-  font-size: 100%;
+  font-size: 87.5%;
   color: #e83e8c;
   word-wrap: break-word;
 }
@@ -510,9 +510,9 @@ a > code {
 
 kbd {
   padding: 0.2rem 0.4rem;
-  font-size: 100%;
-  color: #212529;
-  background-color: #959595;
+  font-size: 87.5%;
+  color: #fff;
+  background-color: #212529;
   border-radius: 0.2rem;
 }
 

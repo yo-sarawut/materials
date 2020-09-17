@@ -8,7 +8,6 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
   padding: 0.5em;
   background: #272822;
   color: #ddd;
-  font-size:1em;
 }
 
 .hljs-tag,
@@ -69,5 +68,4 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 .hljs-type,
 .hljs-selector-id {
   font-weight: bold;
-  font-size:1em;
 }

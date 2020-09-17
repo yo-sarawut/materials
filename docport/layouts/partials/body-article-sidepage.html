@@ -25,7 +25,8 @@
 		    
 		    {{ if .Site.Params.editWithNetlifyCMSURL }}
 		    <li>
-		        <a href="{{ .Site.Params.editWithNetlifyCMSURL }}{{with .File}}{{ replace .Dir "\\" "/" | safeURL }}{{ .BaseFileName }}{{end}}" target="blank">
+		    	{{$dir := (replace .Dir "\\" "/")  }}{{if eq $dir "/" }}{{$dir = ""}}{{end}}
+		        <a href="{{ .Site.BaseURL }}{{ .Site.Params.editWithNetlifyCMSURL }}{{with .File}}{{ replace .Dir "\\" "/" | safeURL }}{{ .BaseFileName }}{{end}}" target="blank">
 		        <i class="fab fa-github"></i>
 		        {{T "Edit-this-page"}}</a>
 		    </li>
