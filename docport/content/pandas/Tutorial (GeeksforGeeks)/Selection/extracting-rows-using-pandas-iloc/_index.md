@@ -13,10 +13,7 @@ Pandas provide a unique method to retrieve rows from a Data frame.  **`Dataframe
 > **Index Position:** Index position of rows in integer or list of integer.
 > 
 > **Return type:** Data frame or Series depending on parameters
-> 
->   
-> 
->   
+  
 
 To download the CSV used in code, click  [here.](https://media.geeksforgeeks.org/wp-content/uploads/nba.csv)  
 
