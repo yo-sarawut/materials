@@ -1,10 +1,10 @@
-baseURL = "/"
+baseURL = "https://knowledge-dragons.github.io/KM/tutorials/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "DocPort Documentation"
+title = "Tutorials"
 theme = "docport"
-#themesdir = "./themes/docport"
+themesdir = "./themes/docport"
 pygmentsCodeFences = true
 pygmentsStyle = "github"
 

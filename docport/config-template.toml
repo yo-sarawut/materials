@@ -2,7 +2,7 @@ title = "DocPort Documentation"
 
 theme = "docport"
 
-baseURL = "https://example.com"
+baseURL = "https://knowledge-dragons.github.io/KM/tutorials/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
