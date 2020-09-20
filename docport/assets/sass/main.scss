@@ -36,7 +36,7 @@ body:not(.render_raw){
 
 
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1;
     color: $c_dark3;
     
     a{
@@ -341,7 +341,7 @@ article section.page {
                 cursor: pointer;
             }
             p{
-                font-size: 15px;
+                font-size: 16px;
                 padding: 0px;
                 margin: 0px;
                 text-align: left;
@@ -358,18 +358,18 @@ article section.page {
      h1:first-of-type {
         font-size: 2.6rem;
         margin-top: 1.5rem!important;
-        color:#223A5E;
+        color:#122b3e!important;
         margin-bottom: 0px;
         line-height: 1.05;
-        letter-spacing: .05em;
-        font-weight: 800;
+     //   letter-spacing: .05em;
+        font-weight: 700;
         span{
             font-size: 90%;
             font-weight: 500;
             &:before{
                 padding-left: .75rem;
                 padding-right: .75rem;
-                color: $c_dark2;
+                color:#223A5E;
                 content: "⊷";   
             }
                 ;
@@ -389,16 +389,16 @@ article section.page div.content{
     a{
         color:$c_saturate7;
         font-weight: 500;
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     h1 {
-        color:$c_dark1;
+        color: #122b3e!important;
         font-size:30px;
         font-variant-ligatures:none;
-        font-weight:700;
+        font-weight:600;
         height:88px;
-        letter-spacing:-0.75px;
+       // letter-spacing:-0.75px;
         line-height:32px;
    }
 
@@ -449,7 +449,7 @@ article section.page div.content{
     // IMAGES
     img {
         border: 0;
-        max-width: 100%;
+        max-width: 90%;
         margin: 1.5rem auto;
         display: block;
         text-align: center;
@@ -479,30 +479,38 @@ article section.page div.content{
     }
 
     code  {
-        font-family: Lato,Consolas,"Liberation Mono","Courier New",monospace;
-        font-size: 95%;
-        color: #e83e8c;
+        font-family: "Lato",monospace;
+        font-size: 1em;
+       
         word-wrap: break-word;
-
+       
         padding: 0.5px;
-        font-weight: 600;
+        font-weight: 400;
         white-space: pre-wrap;
+        border-radius: 4px;
+       
     }
 
     div.highlight{
         pre{
             display:block; 
             white-space: pre-wrap;
+           
+            font-size: 1em;
+            
             code{
                 color:inherit!important;
-                font-size: 95%;
+                font-size: 1em;
                 display: block;
                 margin-left:-1.5rem;
                 margin-right:-1.5rem;
                 padding: 10px;
                 border:0px;
                 font-weight: inherit;
-                background-color: inherit;
+               
+               
+                border-radius: 4px;
+                
             }
         }
     }

@@ -1,0 +1,99 @@
+code {
+    font-family: 'Lato', monospace !important;
+    font-size: 1em !important;
+    font-weight: 500 !important;
+
+    word-wrap: break-word;
+    color: green !important;
+    padding: 0.5px;
+
+    white-space: pre-wrap;
+
+
+}
+
+div.highlight pre {
+
+    display: block;
+    white-space: pre-wrap;
+
+    font-size: 1em;
+    color: inherit !important;
+}
+
+div.highlight code {
+    color: #122b3e !important;
+    font-size: 1em !important;
+    display: block;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 10px;
+    font-family: 'Lato', monospace !important;
+
+    font-weight: inherit;
+    background-color: #e9e9e9 !important;
+    border: 1.2px solid rgba(0, 0, 0, .1) !important;
+    border-radius: 10px;
+
+
+
+}
+
+/*  Header Articles (H1)   */
+
+article section.page {
+    line-height: 24px;
+    color: rgba(0, 0, 0, .85) !important;
+}
+
+article section.page h1:first-of-type {
+    font-size: 2.6rem;
+    margin-top: 1.5rem !important;
+    color: #122b3e;
+    margin-bottom: 0px;
+    line-height: 1.05;
+    letter-spacing: -.05em;
+    font-weight: 700;
+}
+
+article section.page h1:first-of-type span {
+    font-size: 90%;
+    font-weight: 500;
+}
+
+article section.page h1:first-of-type span:before {
+    padding-left: .75rem;
+    padding-right: .75rem;
+    color: #122b3e;
+    content: "⊷";
+}
+
+/*--------------*/
+
+article section.page div.content code {
+    
+    font-size: 100%;
+    color: green!important;
+    word-wrap: break-word;
+    padding: 0.5px;
+    font-weight: 400;
+    white-space: pre-wrap;
+    background-color: #e9e9e9;
+}
+
+article section.page div.content div.highlight pre {
+    display: block;
+    white-space: pre-wrap;
+}
+
+article section.page div.content div.highlight pre code {
+    color: #122b3e!important;
+    font-size: 100%;
+    display: block;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    padding: 10px;
+    border: 0px;
+    font-weight: 400;
+    background-color: inherit;
+}

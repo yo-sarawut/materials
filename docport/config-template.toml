@@ -7,7 +7,7 @@ baseURL = "https://example.com"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 pygmentsCodeFences = true
-pygmentsStyle = "monokai"
+pygmentsStyle = "github"
 
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
@@ -42,7 +42,7 @@ lineNoStart = 1
 lineNos = false
 lineNumbersInTable = true
 noClasses = true
-style = "monokai"
+style = "github"
 tabWidth = 2
 
 #

@@ -14,5 +14,6 @@ weight = 1
 - https://pandas.pydata.org/
 - https://www.w3schools.com/python/default.asp
 - https://codeloop.org
+- http://www.daydev.com/category/developer/s6-programming-language/python
 
 

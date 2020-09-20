@@ -48,7 +48,8 @@ print("The reciprocal of", entry, "is", r)
 ```
 
 **Output**
-```
+
+```text
 The entry is a
 Oops! <class 'ValueError'> occurred.
 Next entry.
@@ -69,7 +70,7 @@ Here, we print the name of the exception using the  `exc_info()`  function insid
 Since every exception in Python inherits from the base  `Exception`  class, we can also perform the above task 
 ```
 
-
+```py
 # import module sys to get the type of exception
 import sys
 
@@ -101,7 +102,7 @@ A  `try`  clause can have any number of  `except`  clauses to handle different e
 
 We can use a tuple of values to specify multiple exceptions in an except clause. Here is an example pseudo code.
 
-```
+```py
 try:
    # do something
    pass
@@ -128,7 +129,7 @@ In Python programming, exceptions are raised when errors occur at runtime. We ca
 
 We can optionally pass values to the exception to clarify why that exception was raised.
 
-```
+```py
  raise KeyboardInterrupt
 Traceback (most recent call last):
 ...
@@ -160,7 +161,7 @@ In some situations, you might want to run a certain block of code if the code bl
 
 Let's look at an example:
 
-```
+```py
 # program to print the reciprocal of even numbers
 
 try:
@@ -176,23 +177,23 @@ else:
 **Output**
 
 If we pass an odd number:
-
+```py
 Enter a number: 1
 Not an even number!
-
+```
 If we pass an even number, the reciprocal is computed and displayed.
-
+```py
 Enter a number: 4
 0.25
-
+```
 However, if we pass 0, we get  `ZeroDivisionError`  as the code block inside  `else`  is not handled by preceding  `except`.
-
+```py
 Enter a number: 0
 Traceback (most recent call last):
   File "<string>", line 7, in <module>
     reciprocal = 1/num
 ZeroDivisionError: division by zero
-
+```
 ----------
 
 ## Python try...finally
@@ -205,7 +206,7 @@ In all these circumstances, we must clean up the resource before the program com
 
 Here is an example of  [file operations](https://www.programiz.com/python-programming/file-operation)  to illustrate this.
 
-```
+```py
 try:
    f = open("test.txt",encoding = 'utf-8')
    # perform file operations
@@ -258,6 +259,7 @@ print(my_string)
 ```
 
 When you run the program, the output will be:
+
 ```py
 Hello
 Hello
@@ -265,6 +267,7 @@ Hello
 Hello, welcome to
            the world of Python
 ```
+
 ----------
 
 ## How to access characters in a string?
@@ -294,7 +297,7 @@ print('str[5:-2] = ', str[5:-2])
 ```
 
 When we run the above program, we get the following output:
-```
+```py
 str =  programiz
 str[0] =  p
 str[-1] =  z
@@ -418,7 +421,7 @@ print(count,'letters found')
 
 When we run the above program, we get the following output:
 
-```
+```py
 3 letters found
 ```
 ----------
@@ -494,7 +497,7 @@ print("He said, \"What's there?\"")
 ```
 
 When we run the above program, we get the following output:
-```
+```py
 He said, "What's there?"
 He said, "What's there?"
 He said, "What's there?"
@@ -573,7 +576,7 @@ print(keyword_order)
 ```
 
 When we run the above program, we get the following output:
-```
+```py
 --- Default Order ---
 John, Bill and Sean
 
@@ -583,6 +586,7 @@ Bill, John and Sean
 --- Keyword Order ---
 Sean, Bill and John
 ```
+
 The  `format()`  method can have optional format specifications. They are separated from the field name using colon. For example, we can left-justify  `<`, right-justify  `>`  or center  `^`  a string in the given space.
 
 We can also format integers as binary, hexadecimal, etc. and floats can be rounded or displayed in the exponent format. There are tons of formatting you can use. Visit here for all the  [string formatting available with the](https://www.programiz.com/python-programming/methods/string/format)  `[format()](https://www.programiz.com/python-programming/methods/string/format)`  method.

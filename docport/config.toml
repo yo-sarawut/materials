@@ -6,7 +6,7 @@ title = "DocPort Documentation"
 theme = "docport"
 #themesdir = "./themes/docport"
 pygmentsCodeFences = true
-pygmentsStyle = "monokai"
+pygmentsStyle = "github"
 
 
 defaultContentLanguageInSubdir= false
@@ -26,7 +26,7 @@ enableMissingTranslationPlaceholders = false
 
 [params]
 ordersectionsby = "weight" # ordersectionsby = "title"
-color_main = "#2A4B7C"
+color_main = "#122b3e"
 #color_second = "#b30000"
 disableSearch = false # default is false
 disableNavChevron = false # set true to hide next/prev chevron, default is false
@@ -52,7 +52,7 @@ lineNoStart = 1
 lineNos = false
 lineNumbersInTable = true
 noClasses = true
-style = "monokai"
+style = "github"
 tabWidth = 2
 
 
