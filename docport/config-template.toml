@@ -1,6 +1,6 @@
 title = "DocPort Documentation"
 
-theme = "docport"
+theme = "hugo-theme-docport"
 
 baseURL = "https://knowledge-dragons.github.io/KM/tutorials/"
 
