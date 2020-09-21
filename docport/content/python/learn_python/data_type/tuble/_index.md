@@ -3,10 +3,7 @@ title = "Python: Tuble"
 weight = 3
 +++
 
-
-
-
- In this article, you'll learn everything about Python tuples. More specifically, what are tuples, how to create them, when to use them and various methods you should be familiar with.
+In this article, you'll learn everything about Python tuples. More specifically, what are tuples, how to create them, when to use them and various methods you should be familiar with.
 
 A tuple in Python is similar to a  [list](https://www.programiz.com/python-programming/list). The difference between the two is that we cannot change the elements of a tuple once it is assigned whereas we can change the elements of a list.
 
@@ -39,7 +36,7 @@ print(my_tuple)
 ```
 
 **Output**
-```
+```text
 ()
 (1, 2, 3)
 (1, 'Hello', 3.4)
@@ -60,7 +57,7 @@ print(c)      # dog
 ```
 
 **Output**
-```
+```text
 (3, 4.6, 'dog')
 3
 4.6
@@ -84,7 +81,7 @@ print(type(my_tuple))  # <class 'tuple'>
 ```
 
 **Output**
-```
+```text
 <class 'str'>
 <class 'tuple'>
 <class 'tuple'>
@@ -128,7 +125,7 @@ print(n_tuple[1][1])       # 4
 ```
 
 **Output**
-```
+```text
 p
 t
 s
@@ -154,7 +151,7 @@ print(my_tuple[-6])
 ```
 
 **Output**
-```
+```text
 t
 p
 ```
@@ -186,7 +183,7 @@ print(my_tuple[:])
 ```
 
 **Output**
-```
+```text
 ('r', 'o', 'g')
 ('p', 'r')
 ('i', 'z')
@@ -228,7 +225,7 @@ print(my_tuple)
 ```
 
 **Output**
-```
+```text
 (4, 2, 3, [9, 5])
 ('p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z')
 ```
@@ -249,7 +246,7 @@ print(("Repeat",) * 3)
 ```
 
 **Output**
-```
+```text
 (1, 2, 3, 4, 5, 6)
 ('Repeat', 'Repeat', 'Repeat')
 ```
@@ -277,7 +274,7 @@ print(my_tuple)
 ```
 
 **Output**
-```
+```text
 Traceback (most recent call last):
   File "<string>", line 12, in <module>
 NameError: name 'my_tuple' is not defined
@@ -298,7 +295,7 @@ print(my_tuple.index('l'))  # Output: 3
 ```
 
 **Output**
-```
+```text
 2
 3
 ```
@@ -323,7 +320,7 @@ print('g' not in my_tuple)
 ```
 
 **Output**
-```
+```text
 True
 False
 True
@@ -341,10 +338,10 @@ for name in ('John', 'Kate'):
 ```
 
 **Output**
-
+```text
 Hello John
 Hello Kate
-
+```
 ----------
 
 ### Advantages of Tuple over List
