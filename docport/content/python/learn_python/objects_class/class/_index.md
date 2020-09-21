@@ -55,7 +55,7 @@ print(Person.__doc__)
 ```
 
 **Output**
-```
+```py
 10
 <function Person.greet at 0x7fc78c6e8160>
 This is a person class
@@ -102,7 +102,7 @@ harry.greet()
 ```
 
 **Output**
-```
+```text
 <function Person.greet at 0x7fd288e4e160>
 <bound method Person.greet of <__main__.Person object at 0x7fd288e9fa30>>
 Hello
@@ -158,7 +158,7 @@ print(num1.attr)
 ```
 
 **Output**
-```
+```text
 2+3j
 (5, 0, 10)
 Traceback (most recent call last):

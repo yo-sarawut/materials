@@ -404,41 +404,16 @@ Cory's favorite movie is "Titanic"
 
 Below is a table of other common escape characters.
 
-Escape Character
-
-Result
-
-\’
-
-Single Quote
-
-\\
-
-Backslash
-
-\b
-
-Backspace
-
-\f
-
-Line Feed
-
-\n
-
-New Line
-
-\r
-
-Line Feed
-
-\t
-
-Tab
-
-\v
-
-Vertical Tab
+| Escape Character | Result       |
+|:------------------:|:--------------|
+| \’               | Single Quote |
+| \\               | Backslash    |
+| \b               | Backspace    |
+| \f               | Line Feed    |
+| \n               | New Line     |
+| \r               | Line Feed    |
+| \t               | Tab          |
+| \v               | Vertical Tab |
 
 ## Numbers
 
@@ -447,21 +422,11 @@ Python supports 4 types of Numbers, the int, the long, the float and the complex
 You don’t have to specify what type of variable you want. Python does that  
 automatically.
 
-**Int**
-
-This is the basic integer type in python.
-
-Long
-
-This is a integer number that’s length is non-limited.
-
-Float
-
-This is a binary floating point number.
-
-Complex
-
-This is a complex number consisting of two floats.
+| Int     | This is the basic integer type in python.              |
+|:---------|:--------------------------------------------------------|
+| Long    | This is a integer number that’s length is non-limited. |
+| Float   | This is a binary floating point number.                |
+| Complex | This is a complex number consisting of two floats.     |
 
 ### Converting Numbers
 
@@ -502,69 +467,15 @@ Keywords in Python are reserved words that cannot be used as ordinary identifier
 
 The following is a list of keywords for the Python programming language.
 
-and
-
-del
-
-from
-
-not
-
-while
-
-as
-
-elif
-
-global
-
-or
-
-with
-
-assert
-
-else
-
-if
-
-pass
-
-yield
-
-break
-
-except
-
-import
-
-print
-
-class
-
-exec
-
-in
-
-raise
-
-continue
-
-finally
-
-is
-
-return
-
-def
-
-for
-
-lambda
-
-try
-
-Learn More About Keywords
+| and     | del    | from   | not      |
+|:---------:|:--------:|:--------:|:----------:|
+| while   | as     | elif   | global   |
+| or      | with   | assert | else     |
+| if      | pass   | yield  | break    |
+| except  | import | print  | class    |
+| exec    | in     | raise  | continue |
+| finally | is     | return | def      |
+| for     | lambda | try    | nan      |
 
 ## Strings
 
@@ -575,25 +486,19 @@ Additional Resources
 [Recommended Course: Intro to Python](https://www.datacamp.com/courses/intro-to-python-for-data-science?tap_a=5644-dce66f&tap_s=75426-9cf8ad&tm_source=ic_recommended_course)
 
 Strings can have spaces: “hello world”.
-
 An empty string is a string that has 0 characters.
-
 Python strings are immutable, which means they can’t change.
-
 String syntax is recognized by anything between ” ” or ‘ ‘.
-
 Much like Lists, Strings have functions that can work on their value.
 
 ### String Functions
 
 **Changing Case**
-
+```py
 string.lower() # lower case the string
-
 string.upper() # upper case the string
-
 string.title() # upper case the first letters
-
+```
 **Replace**
 
 string.replace(“This”,”That”) # will replace the text “This” with “That”
@@ -621,18 +526,13 @@ print "You can concatenate two " + "strings with the '+' operator."
 
 ```
 
-```python
- 
+```python 
 str1 = "Hello"
 str2 = "World"
 str1 + str2    	# concatenation: a new string
-
 # String literals may be concatenated by a space
-
 word = 'left' "right" 'left'
-
 # Any string expression may be concatenated by a +
-
 word = wordA + "
 " + wordB
 ```
@@ -673,7 +573,6 @@ The built-in type Boolean can hold only one of two possible objects: True or Fal
 Boolean values respond to logical operators and / or. The examples below show how multiple boolean values act together with differing operators.
 
 ```python
-
 >>> True and False
 False
 
@@ -688,7 +587,6 @@ True
 
 >>> False or False
 False
-
 ```
 
 Learn More About Booleans
@@ -706,7 +604,6 @@ It works like this:
 Let’s say that you have a list of browsers like below. That reads, for every element that we assign the variable browser, in the list browsers, print out the variable browser
 
 ```python
-
 >>> browsers = ["Safari","Firefox","Chrome"]
 >>> for browser in browsers:
 ...     print browser
@@ -714,7 +611,6 @@ Let’s say that you have a list of browsers like below. That reads, for every e
 Safari
 Firefox
 Chrome
-
 ```
 
 ### While Loops
@@ -786,9 +682,7 @@ Learn More About Loops
 ## Lists
 
 Lists in Python are a collection of items, such as Strings, Integers or other Lists.
-
 Lists are enclosed in [ ] with each item separated by commas.
-
 Lists, unlike Strings are mutable, which means they can be changed.
 
 ### List Examples
@@ -823,103 +717,33 @@ print bourbonList
 
 Here are more List functions and their purpose
 
-Function
-
-Description
-
-Insert(x,y)
-
-Inserts an item(x) into an array after (y)
-
-Remove(x)
-
-Removes (x) on a match
-
-Extend(list)
-
-Adds another list to the calling list
-
-Delete(1)
-
-Deletes an item based on the index passed in
-
-Too see a more comprehensive list of List functions, check out our Learn More About Lists section.
-
-Learn More About Lists
+| Function |Description |
+|:----------:|:----------|
+| Insert(x,y) |Inserts an item(x) into an array after (y) |
+| Remove(x) |Removes (x) on a match |
+| Extend(list) |Adds another list to the calling list |
+| Delete(1) |Deletes an item based on the index passed in |
 
 ## Operators
 
 ### Comparison operators
 
-Operator
-
-Description
-
-Example
-
-<
-
-less than
-
-x < 10
-
-<=
-
-less than or equal to
-
-x <= 10
-
->
-
-greater than
-
-x > 10
-
->=
-
-greater than or equal to
-
-x >= 10
-
-==
-
-equality
-
-x == 10
-
-!=
-
-inequality (also <>)
-
-x != 10
+| Operator |Description |Example |
+|:----------:|:----------|:----------:|
+| < |less than |x < 10 |
+| <= |less than or equal to |x <= 10 |
+| > |greater than |x > 10 |
+| >= |greater than or equal to |x >= 10 |
+| == |equality |x == 10 |
+| != |inequality (also <>) |x != 10 |
 
 #### Logical operators
 
-Operator
-
-Description
-
-Example
-
-not
-
-logical notation
-
-not b
-
-and
-
-logical and
-
-(x <= 10) and (y == True)
-
-or
-
-logical or
-
-(x < 10) or (y > 100.1)
-
-Learn More About Operators
+| Operator |Description |Example |
+|:----------:|:----------|:----------|
+| not |logical notation |not b |
+| and |logical and |(x <= 10) and (y == True) |
+| or |logical or |(x < 10) or (y > 100.1) |
 
 ## Conditional Statements
 
@@ -1052,22 +876,22 @@ To handle exceptions you need to use the catch-all except clause. This involves 
 Simply put, you wrap the executing code in a "try" block and if any exception occurs, you catch it and handle it accordingly.
 
 An example in pseudo code:
-
+```py
 try:
 some statements here
 
 except:
 exception handling
-
+```
 Let's see a short example on how to do this:
-
+```py
 try:
 print 1/0
 
 except ZeroDivisionError:
 print "You can't divide by zero, you're silly."
+```
 
-Learn More About Exception Handling
 
 ## Dictionaries
 

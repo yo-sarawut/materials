@@ -10,11 +10,8 @@ In this tutorial you will learn to create, format, modify and delete strings in 
 A string is a sequence of characters.
 
 A character is simply a symbol. For example, the English language has 26 characters.
-
 Computers do not deal with characters, they deal with numbers (binary). Even though you may see characters on your screen, internally it is stored and manipulated as a combination of 0s and 1s.
-
 This conversion of character to a number is called encoding, and the reverse process is decoding. ASCII and Unicode are some of the popular encodings used.
-
 In Python, a string is a sequence of Unicode characters. Unicode was introduced to include every character in all languages and bring uniformity in encoding. You can learn about Unicode from  [Python Unicode](http://docs.python.org/3.3/howto/unicode.html).
 
 ----------
@@ -42,7 +39,7 @@ print(my_string)
 ```
 
 When you run the program, the output will be:
-```py
+```text
 Hello
 Hello
 Hello
@@ -78,7 +75,7 @@ print('str[5:-2] = ', str[5:-2])
 ```
 
 When we run the above program, we get the following output:
-```
+```py
 str =  programiz
 str[0] =  p
 str[-1] =  z
@@ -100,9 +97,7 @@ TypeError: string indices must be integers
 ```
 
 Slicing can be best visualized by considering the index to be between the elements as shown below.
-
 If we want to access a range, we need the index that will slice the portion from the string.
-
 ![Element Slicing in Python](https://cdn.programiz.com/sites/tutorial2program/files/element-slicling.jpg "Element Slicing")
 
 String Slicing in Python
@@ -163,7 +158,7 @@ print('str1 * 3 =', str1 * 3)
 ```
 
 When we run the above program, we get the following output:
-```
+```py
 str1 + str2 =  HelloWorld!
 str1 * 3 = HelloHelloHello
 ```
@@ -199,7 +194,7 @@ print(count,'letters found')
 ```
 
 When we run the above program, we get the following output:
-```
+```text
 3 letters found
 ```
 ----------
@@ -274,7 +269,7 @@ print("He said, \"What's there?\"")
 ```
 
 When we run the above program, we get the following output:
-```
+```text
 He said, "What's there?"
 He said, "What's there?"
 He said, "What's there?"
@@ -353,7 +348,7 @@ print(keyword_order)
 ```
 
 When we run the above program, we get the following output:
-```
+```text
 --- Default Order ---
 John, Bill and Sean
 
