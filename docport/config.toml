@@ -26,8 +26,13 @@ enableMissingTranslationPlaceholders = false
 
 [params]
 ordersectionsby = "weight" # ordersectionsby = "title"
+<<<<<<< Updated upstream
 color_main = "#122b3e"
 #color_second = "#b30000"
+=======
+color_main = "#2A4B7C"
+color_second = "#da532c"
+>>>>>>> Stashed changes
 disableSearch = false # default is false
 disableNavChevron = false # set true to hide next/prev chevron, default is false
 menushortcutsnewtab = false # set true to open shortcuts links to a new tab/window
