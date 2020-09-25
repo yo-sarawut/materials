@@ -28,8 +28,13 @@ enableMissingTranslationPlaceholders = false
 ordersectionsby = "weight" # ordersectionsby = "title"
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 color_main = "#122b3e"
 #color_second = "#b30000"
+=======
+color_main = "#2A4B7C"
+color_second = "#da532c"
+>>>>>>> Stashed changes
 =======
 color_main = "#2A4B7C"
 color_second = "#da532c"
