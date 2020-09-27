@@ -1,6 +1,0 @@
-/public
-
-.DS_Store
-
-/public/*
-!/public/.gitkeep
